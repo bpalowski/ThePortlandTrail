@@ -1,0 +1,17 @@
+@using HairSalon.Models;
+<h1>Hello these are the Stylist</h1>
+<ul>
+  @if (Model.Count == 0)
+  {
+    <p>No stylists have been added...</p>
+  } else
+  {
+  @foreach(var stylist in Model)
+    {
+    <li>@stylist.GetStylistName()|<a href='/stys/@stylist.GetStyId()/specia'>Info</a> | <a href="/stys/@stylist.GetStyId()/delete">Delete</a> |<a href="/stys/@stylist.GetStyId()/update">Edit</a>| </li>
+    }
+  }
+</ul>
+<a href='/'>Go Home</a>
+<p><a href='/stys/new'>Add a New Stylist<a/></p>
+<p><a href='/clis/new'>Add a New Client<a/></p>

@@ -1,0 +1,10 @@
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp1.1/HairSolution.deps.json
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp1.1/HairSolution.runtimeconfig.json
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp1.1/HairSolution.runtimeconfig.dev.json
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp1.1/HairSolution.dll
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/bin/Debug/netcoreapp1.1/HairSolution.pdb
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp1.1/HairSolution.csproj.CoreCompileInputs.cache
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp1.1/HairSolution.AssemblyInfoInputs.cache
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp1.1/HairSolution.AssemblyInfo.cs
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp1.1/HairSolution.dll
+/Users/brian/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp1.1/HairSolution.pdb

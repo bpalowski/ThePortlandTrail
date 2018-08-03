@@ -1,0 +1,8 @@
+@using HairSalon.Models;
+<h2>Welcome want to edit the stylist:@Model.GetStylistName()</h2>
+<form action="/stys/@Model.GetStyId()/update" method="post">
+    <label for="stylistName">Name:</label>
+    <input id="newStylistName" type="text" name="newStylistName" value="@Model.GetStylistName()">
+    <button type="submit">Edit</button>
+</form>
+<h4><a href="/stys">Return home</a></h4>

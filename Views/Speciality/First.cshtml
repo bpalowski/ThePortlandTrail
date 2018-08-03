@@ -1,0 +1,11 @@
+@using HairSalon.Models;
+<h1>List of Specialities</h1>
+    <p>Chose a option to button</p>
+
+    @foreach(var specialist in Model)
+    {
+      <li>@specialist.GetDescription()| <a href="/special/@specialist.GetId()/why">Details</a></li>
+    }
+
+</ul>
+<p><a href="/">Go Home</a></p>

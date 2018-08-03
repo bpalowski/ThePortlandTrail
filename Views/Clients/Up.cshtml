@@ -1,0 +1,8 @@
+@using HairSalon.Models;
+<h2>Edit client: @Model.GetName()</h2>
+<form action="/clis/@Model.GetId()/update" method="post">
+    <label for="name">Name</label>
+    <input id="newClient" type="text" name="newClient" value="@Model.GetName()">
+    <button type="submit">Edit</button>
+</form>
+<h4><a href="/clis">Return home</a></h4>
